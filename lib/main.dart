@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/toggle buttons.dart';
 import 'widgets/tooltip.dart';
 import 'widgets/transform.dart';
 import 'widgets/tween animation builder.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ToolTipWidget(),
+      home: ToggleButtonWidget(),
     );
   }
 }
