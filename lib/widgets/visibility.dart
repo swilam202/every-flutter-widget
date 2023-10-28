@@ -55,7 +55,7 @@ class _VisibilityWidgetState extends State<VisibilityWidget> {
                   fit: BoxFit.fill,
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
