@@ -1,7 +1,8 @@
-import 'package:everyflutterwidget/widgets/will%20pop%20scope.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/will pop scope.dart';
 import 'widgets/divider.dart';
+import 'widgets/value listenable builder.dart';
 import 'widgets/vertical divider.dart';
 import 'widgets/visibility.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: VerticalDividerWidget(),
+      home: ValueListenableBuilderWidget(),
     );
   }
 }
