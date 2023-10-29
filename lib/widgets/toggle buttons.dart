@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-
 //*ToggleButtons
-//لو عايز تحط كذا ويدجيت وعايز تخلي قيمهم 
+//لو عايز تحط كذا ويدجيت وعايز تخلي قيمهم
 //true or false
-
 
 class ToggleButtonWidget extends StatefulWidget {
   const ToggleButtonWidget({super.key});
@@ -14,10 +12,8 @@ class ToggleButtonWidget extends StatefulWidget {
 }
 
 class _ToggleButtonWidgetState extends State<ToggleButtonWidget> {
-
-  //هنا بنحط القيم بتعات الايقونات سواء 
+  //هنا بنحط القيم بتعات الايقونات سواء
   //true or false
-
 
   List<bool> selected = [
     false,
@@ -37,7 +33,7 @@ class _ToggleButtonWidgetState extends State<ToggleButtonWidget> {
               selected[index] = !selected[index];
             });
           },
-          //هنا بنمررله فيمة المتغير 
+          //هنا بنمررله فيمة المتغير
           isSelected: selected,
           //هنا الايقونات نفسها
           children: const [
