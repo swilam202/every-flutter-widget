@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/theme data.dart';
 import 'widgets/time picker.dart';
 import 'widgets/toggle buttons.dart';
 import 'widgets/tooltip.dart';
@@ -12,16 +13,6 @@ import 'widgets/vertical divider.dart';
 import 'widgets/visibility.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ThemeDataWidget());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: TimePickerWidget(),
-    );
-  }
-}
