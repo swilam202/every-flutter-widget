@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/text form field.dart';
 import 'widgets/text span.dart';
 import 'widgets/time picker.dart';
 import 'widgets/toggle buttons.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: TimePickerWidget(),
+      home: TextFormFieldWidget(),
     );
   }
 }
