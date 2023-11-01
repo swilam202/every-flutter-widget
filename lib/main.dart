@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/time picker.dart';
 import 'widgets/toggle buttons.dart';
 import 'widgets/tooltip.dart';
 import 'widgets/transform.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ToggleButtonWidget(),
+      home: TimePickerWidget(),
     );
   }
 }
